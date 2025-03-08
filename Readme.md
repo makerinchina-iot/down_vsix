@@ -1,10 +1,10 @@
 # 为方便下载某些VSCode插件做的一个简单的VSCode插件下载器
 
-这是一个简单的桌面应用程序，用于从VSCode插件市场搜索和下载Visual Studio Code的插件(.vsix文件)。
+一个很简单的工具，用于从VSCode插件市场搜索和下载 Visual Studio Code 的插件(.vsix文件)，以便在其他地方离线安装使用。
 
 ## 界面
 
-![界面](./image.png)
+ ![界面](./image.png)
 
 ## 功能特点
 
@@ -34,7 +34,10 @@
 
 ```bash
 pip install PyQt5 requests
+```
 
 ## 运行方法
+
 ```bash
 python main.py
+```
