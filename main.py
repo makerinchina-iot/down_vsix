@@ -77,7 +77,7 @@ class ExtensionItemDelegate(QStyledItemDelegate):
 class VSCodeExtensionDownloader(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle('VSCode插件下载器')
+        self.setWindowTitle('VSCode插件下载器 - Powered By MonkeyPi.')
         self.setGeometry(100, 100, 800, 600)
         self.initUI()
 
